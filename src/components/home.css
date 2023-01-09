@@ -1,0 +1,23 @@
+.container {
+    height: 100vh;
+    padding: 5rem;
+    box-sizing: border-box;
+}
+
+.companies>svg{
+    color: white;
+    font-size: 3rem;
+    transition: color 0.5s;
+}
+.companies>svg:hover{
+    color: red
+}
+
+.course{
+    width: 250px;
+    margin-bottom: 1rem;
+    transition: all 0.5s;
+}
+.course:hover{
+    transform: translateY(-10px)
+}
